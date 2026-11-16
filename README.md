@@ -40,7 +40,7 @@ $$H(e^{j\omega}) = \frac{1}{8} e^{-j 2.5 \omega} \frac{\sin(3\omega)}{\sin(\omeg
 
 * **Phase Linearity:** The term $e^{-j 2.5 \omega}$ imparts a strictly constant group delay of $\tau_g = 2.5$ sample periods, preserving signal envelope fidelity without phase distortion.
 * **Transmission Zeros (Attenuated Null Frequencies):** Transmission zeros occur wherever $\sin(3\omega) = 0$ (for $\omega \neq 0$):
-  $$\omega_{\text{null}} = \left\{ \frac{\pi}{3}, \frac{2\pi}{3} \right\} \quad \Longrightarrow \quad f_{\text{null}} = \left\{ \frac{F_s}{6}, \frac{F_s}{3} \right\}$$
+ $$\omega_{\text{null}} = \left\lbrace \frac{\pi}{3}, \frac{2\pi}{3} \right\rbrace \quad \Longrightarrow \quad f_{\text{null}} = \left\lbrace \frac{F_s}{6}, \frac{F_s}{3} \right\rbrace$$
   At a reference sampling clock of $100\text{ MHz}$, deep spectral nulls are synthesized at **$16.67\text{ MHz}$** and **$33.33\text{ MHz}$**, providing active notch suppression for high-frequency interference.
 
 ---
